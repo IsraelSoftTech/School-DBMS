@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MPASAT DBMS</title>
+    <link rel="stylesheet" href="../dasgboard/dashboard.css">
+    <link rel="stylesheet" href="../salary/salary.css">
+</head>
+<body>
+     <!-- Nav Bar -->
+     <header>
+        <h1>MPASAT - ST.LOUIS JUNIOR ACADEMY.</h1>
+        <h3>School Database Management System.</h3>
+        <div class="container">
+
+            <a href="../dasgboard/dashboard.html" class="logo">MPASAT</a>
+            <nav>
+                <ul>
+                  
+                    <li><a href="../admission/admission.html">Admission</a></li>
+                    <li><a href="../studentData/studentData.html">Student Database</a></li>
+                    <li><a href="../teacher/teacherReg.html">Teacher Registration</a></li>
+                    <li><a href="../teacherRecord/teacherRecord.html">Teacher Record</a></li>
+                    <li><a href="../payFee/payFee.html">Pay Fees</a></li>
+                    <li><a href="../feeRecord/feeRecord.html">Fee Record</a></li>
+                    <li><a href="../salary/salary.html" class="active">Salary</a></li>
+                    <li><a href="../classLists/classList.html">Class Lists</a></li>
+               
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--Salary-->
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">S/N</th>
+                <th rowspan="2">Names</th>
+                <th rowspan="2">Salary</th>
+                <th rowspan="2">Number</th>
+                <th colspan="12">Months</th>
+            </tr>
+            <tr>
+                <th>January</th>
+                <th>February</th>
+                <th>March</th>
+                <th>April</th>
+                <th>May</th>
+                <th>June</th>
+                <th>July</th>
+                <th>August</th>
+                <th>September</th>
+                <th>October</th>
+                <th>November</th>
+                <th>December</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Tata Peter</td>
+                <td>50,000FCFA</td>
+                <td>67000000223</td>
+                <td class="month-checkbox"><input type="checkbox" onclick="handleCheckboxClick(this)" data-sn="1" data-name="Tata Peter" data-number="67000000223" data-month="January"> Pay</td>
+                <td class="month-checkbox"><input type="checkbox" onclick="handleCheckboxClick(this)" data-sn="1" data-name="Tata Peter" data-number="67000000223" data-month="February"> Pay</td>
+                <td class="month-checkbox"><input type="checkbox" onclick="handleCheckboxClick(this)" data-sn="1" data-name="Tata Peter" data-number="67000000223" data-month="March"> Pay</td>
+                <td class="month-checkbox"><input type="checkbox" onclick="handleCheckboxClick(this)" data-sn="1" data-name="Tata Peter" data-number="67000000223" data-month="April"> Pay</td>
+                <td class="month-checkbox"><input type="checkbox" onclick="handleCheckboxClick(this)" data-sn="1" data-name="Tata Peter" data-number="67000000223" data-month="May"> Pay</td>
+                <td class="month-checkbox"><input type="checkbox" onclick="handleCheckboxClick(this)" data-sn="1" data-name="Tata Peter" data-number="67000000223" data-month="June"> Pay</td>
+                <td class="month-checkbox"><input type="checkbox" onclick="handleCheckboxClick(this)" data-sn="1" data-name="Tata Peter" data-number="67000000223" data-month="July"> Pay</td>
+                <td class="month-checkbox"><input type="checkbox" onclick="handleCheckboxClick(this)" data-sn="1" data-name="Tata Peter" data-number="67000000223" data-month="August"> Pay</td>
+                <td class="month-checkbox"><input type="checkbox" onclick="handleCheckboxClick(this)" data-sn="1" data-name="Tata Peter" data-number="67000000223" data-month="September"> Pay</td>
+                <td class="month-checkbox"><input type="checkbox" onclick="handleCheckboxClick(this)" data-sn="1" data-name="Tata Peter" data-number="67000000223" data-month="October"> Pay</td>
+                <td class="month-checkbox"><input type="checkbox" onclick="handleCheckboxClick(this)" data-sn="1" data-name="Tata Peter" data-number="67000000223" data-month="November"> Pay</td>
+                <td class="month-checkbox"><input type="checkbox" onclick="handleCheckboxClick(this)" data-sn="1" data-name="Tata Peter" data-number="67000000223" data-month="December"> Pay</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+
+
+
+
+</body>
+</html>

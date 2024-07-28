@@ -1,0 +1,106 @@
+/*--Search bar--*/
+.search{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    margin-bottom:0.5rem;
+}
+.search input{
+    border: none;
+    background: #f1f1f1;
+    border-radius: 10rem 0 0 10rem;
+    outline: none;
+    width: 40rem;
+    height: 2.5rem;
+    padding-left:1rem;
+}
+.search button{
+    outline: none;
+    border: none;
+    border-radius: 0 10rem 10rem 0;
+    height: 2.5rem;
+    width: 5rem;
+    font-size: 1rem;
+    background: #008080;
+    color:#fff;
+    opacity: 0.8;
+    cursor: pointer;
+}
+/*------------------------*/
+
+
+
+.containerLeft{
+    flex: 3;
+    font-family: Arial, Helvetica, sans-serif;
+   margin-top: 20px;
+}
+.containerRight{
+    flex: 2;
+    font-family: sans-serif;
+}
+.teacherImage{
+    height: 60px;
+    width: 60px;
+    border-radius: 16px;
+}
+table{
+    width:100%;
+
+}
+table th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    color:#fff;
+    background: #008080;
+  
+
+}
+tbody td{
+    border-right: 1px solid #008080;
+    border-bottom: 1px solid #008080;
+}
+ td{
+    margin-left: 1rem;
+    text-align: center;
+}
+
+#tableData tr:nth-child(even){
+    background-color:#f2f2f2;
+}
+tr .stateFee{
+    background: orange;
+    color: #fff;
+
+}
+tr .bal{
+    background: orange;
+    color: #fff;
+    
+}
+tr .noBal{
+    background: #049ff8;
+    color: #fff;
+    
+}
+tr .comp{
+    background: #049ff8;
+    color: #fff;
+    
+}
+.printbtn{
+    height: 2rem;
+    width: 7rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: none;
+    background: #e72929;
+    color: #fff;
+    outline: none;
+    opacity: 0.8;
+cursor: pointer;
+margin-top: 3px;
+margin-left: 1400px;
+
+}

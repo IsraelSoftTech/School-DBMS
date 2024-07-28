@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MPASAT DBMS</title>
+    <link rel="stylesheet" href="../dasgboard/dashboard.css">
+    <link rel="stylesheet" href="../feeRecord/feeRecord.css">
+</head>
+<body>
+     <!-- Nav Bar -->
+     <header>
+        <h1>MPASAT - ST.LOUIS JUNIOR ACADEMY.</h1>
+        <h3>School Database Management System.</h3>
+        <div class="container">
+
+            <a href="../dasgboard/dashboard.html" class="logo">MPASAT</a>
+            <nav>
+                <ul>
+                  
+                    <li><a href="../admission/admission.html">Admission</a></li>
+                    <li><a href="../studentData/studentData.html">Student Database</a></li>
+                    <li><a href="../teacher/teacherReg.html">Teacher Registration</a></li>
+                    <li><a href="../teacherRecord/teacherRecord.html">Teacher Record</a></li>
+                    <li><a href="../payFee/payFee.html">Pay Fees</a></li>
+                    <li><a href="../feeRecord/feeRecord.html" class="active">Fee Record</a></li>
+                    <li><a href="../salary/salary.html">Salary</a></li>
+                    <li><a href="../classLists/classList.html">Class Lists</a></li>
+                  
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--Search bar-->
+    <div class="search">
+        <input type="text" placeholder="Search Student">
+        <button>Search</button>
+    </div>
+
+    <!--Fee Record-->
+    <button class="printbtn">Print</button>
+    <div class="containerLeft">
+        <table id="tableData">
+            <tr>
+               <th>ID</th>
+               <th>Student's Name</th>
+               <th>Class</th>
+               <th>Registration</th>
+               <th>Tuition</th>
+               <th>Vocational</th>
+               <th>Total Fee</th>
+               <th>Amount Paid</th>
+               <th>Balance</th>
+               <th>Payment Method</th>
+               <th>Status</th>
+            </tr>
+            <tbody>
+                <tr>
+                <td>MPA001</td>
+                <td>Tama Jude</td>
+                <td>Form 1A</td>
+                <td>XAF5,000</td>
+                <td>XAF80,000</td>
+                <td>XAF25,000</td>
+                <td>XAF110,000</td>
+                <td>XAF100,000</td>
+                <td class="bal">XAF10,000</td>
+                <td>Bank</td>
+                <td class="stateFee">Pending</td>
+            </tr>
+            <tr>
+                <td>MPA002</td>
+                <td>Tchuamini Paul</td>
+                <td>Form 2A</td>
+                <td>XAF5,000</td>
+                <td>XAF80,000</td>
+                <td>XAF25,000</td>
+                <td>XAF110,000</td>
+                <td>XAF110,000</td>
+                <td class="noBal">XAF0</td>
+                <td>Bank</td>
+                <td class="comp">Completed</td>
+            </tr>
+
+            </tbody>
+            </table>
+
+
+
+
+
+</body>
+</html>

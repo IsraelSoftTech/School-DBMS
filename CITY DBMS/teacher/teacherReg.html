@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MPASAT DBMS</title>
+    <link rel="stylesheet" href="../dasgboard/dashboard.css">
+    <link rel="stylesheet" href="../teacher/teacherReg.css">
+</head>
+<body>
+     <!-- Nav Bar -->
+     <header>
+        <h1>MPASAT - ST.LOUIS JUNIOR ACADEMY.</h1>
+        <h3>School Database Management System.</h3>
+        <div class="container">
+
+            <a href="../dasgboard/dashboard.html" class="logo">MPASAT</a>
+            <nav>
+                <ul>
+                  
+                    <li><a href="../admission/admission.html">Admission</a></li>
+                    <li><a href="../studentData/studentData.html">Student Database</a></li>
+                    <li><a href="../teacher/teacherReg.html" class="active">Teacher Registration</a></li>
+                    <li><a href="../teacherRecord/teacherRecord.html">Teacher Record</a></li>
+                    <li><a href="../payFee/payFee.html">Pay Fees</a></li>
+                    <li><a href="../feeRecord/feeRecord.html">Fee Record</a></li>
+                    <li><a href="">Salary</a></li>
+                    <li><a href="../classLists/classList.html">Class Lists</a></li>
+               
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--Teacher Registration-->
+    <div class="adminContainer">
+        <!--Left Container-->
+        <div class="containerLeft">
+            <table id="tableData">
+                <tr>
+                   <th>ID</th>
+                   <th>Image</th>
+                   <th>Teacher's Name</th>
+                   <th>Discipline</th>
+                   <th>Classes Taugt</th>
+                   <th>Sex</th>
+                   <th>Date of Birth</th>
+                   <th>NIC Number</th>
+                   <th>Contact</th>
+                   <th>Action</th>
+                </tr>
+            </table>
+
+        </div>
+         <!--Right Container-->
+        <div class="containerRight">
+            <div class="formContainer">
+                <h1>Register a teacher</h1>
+                <button type="button" class="newbtn">New</button>
+    <form>
+        <label for="teacherID">ID:</label>
+        <input type="text" id="teacherID" readonly class="formControl"><br>
+        <label for="teacherImage">Image:</label>
+        <input type="file" id="teacherImage" class="formControl"><br>
+
+        <label for="teacherName">Name:</label>
+        <input type="text" id="teacherName" class="formControl"><br>
+
+        <label for="teacherDiscipline">Discipline:</label>
+        <input type="text" id="teacherDiscipline" class="formControl"><br>
+
+        <label for="teacherClasses">Classes Taught:</label>
+        <input type="text" id="teacherClasses" class="formControl"><br>
+
+        <label for="teacherSex">Sex:</label>
+        <input type="text" id="teacherSex" class="formControl"><br>
+
+        <label for="teacherDOB">Date of Birth:</label>
+        <input type="date" id="teacherDOB" class="formControl"><br>
+
+        <label for="teacherNIC">NIC Number:</label>
+        <input type="text" id="teacherNIC" class="formControl"><br>
+
+        <label for="teacherContact">Contact:</label>
+        <input type="text" id="teacherContact" class="formControl"><br>
+
+        <button type="button" class="savebtn">Save</button>
+    </form>     
+                </div>
+            </div>
+
+        </div>
+</body>
+</html>

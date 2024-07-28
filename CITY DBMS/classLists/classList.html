@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MPASAT DBMS</title>
+    <link rel="stylesheet" href="../dasgboard/dashboard.css">
+    <link rel="stylesheet" href="../classLists/classList.css">
+</head>
+<body>
+     <!-- Nav Bar -->
+     <header>
+        <h1>MPASAT - ST.LOUIS JUNIOR ACADEMY.</h1>
+        <h3>School Database Management System.</h3>
+        <div class="container">
+
+            <a href="../dasgboard/dashboard.html" class="logo">MPASAT</a>
+            <nav>
+                <ul>
+                  
+                    <li><a href="../admission/admission.html">Admission</a></li>
+                    <li><a href="../studentData/studentData.html">Student Database</a></li>
+                    <li><a href="../teacher/teacherReg.html">Teacher Registration</a></li>
+                    <li><a href="../teacherRecord/teacherRecord.html">Teacher Record</a></li>
+                    <li><a href="../payFee/payFee.html">Pay Fees</a></li>
+                    <li><a href="../feeRecord/feeRecord.html">Fee Record</a></li>
+                    <li><a href="../salary/salary.html">Salary</a></li>
+                    <li><a href="../classLists/classList.html" class="active">Class Lists</a></li>
+             
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<!--Class Lists-->
+<div class="classList">
+    <div class="list">
+        <h2>Select a Class to print</h2>
+        <div class="formGroup">
+            <label>Class</label>
+            <select class="formControl" name="class"  required >
+                <option value="" disabled selected></option>
+                <option value="form1a">Form 1A</option>
+                <option value="form1b">Form 1B</option>
+                <option value="form1c">Form 1C</option>
+                <option value="form2a">Form 2A</option>
+                <option value="form2b">Form 2B</option>
+                <option value="form2c">Form 2C</option>
+                <option value="form3a">Form 3A</option>
+                <option value="form3b">Form 3B</option>
+                <option value="form3c">Form 3C</option>
+            </select>
+            </div>
+            <button class="printbtn">Print Class List</button>
+    </div>
+    
+</div>
+
+
+
+</body>
+</html>
